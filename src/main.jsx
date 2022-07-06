@@ -7,7 +7,9 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 // import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
 // import 'bootstrap-icons/font/bootstrap-icons.css';
 // const user=JSON.parse(localStorage.getItem("user"))
-// import '../node_modules/b'
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <BrowserRouter>
