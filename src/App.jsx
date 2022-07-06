@@ -6,8 +6,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-     <p>hello</p>
+    <div className="bg-dark">
+     <p className='bg-warning'>hello</p>
     </div>
   )
 }
