@@ -15,7 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
    
    <Routes>
-   <Route path='/' element={user?.token?<App />:<SignIn/>} />
+    <Route path='/' element={<App/>}/>
+   {/* <Route path='/' element={user?.token?<App />:<SignIn/>} /> */}
     {/* <Route path='/categories' element={user?.token?<Categories />:<SignIn/>} />
     <Route path='/tasks' element={user?.token?<Tasks />:<SignIn/>} />
   <Route path='/signin' element={<SignIn />}/> */}
